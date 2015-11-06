@@ -1,0 +1,9 @@
+Python, mono
+
+apt-get install python python-pip mono-complete
+https://azure.microsoft.com/en-us/documentation/articles/python-how-to-install/
+pip install pydocumentdb
+pip install azure
+pip install redis
+pip install azure-storage
+https://azure-sdk-for-python.readthedocs.org/en/latest/#

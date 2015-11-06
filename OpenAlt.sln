@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubClient", "EventHubClient\EventHubClient.csproj", "{B8557668-C672-4E44-AF5F-7DD3F8150943}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "EventHubClientPy", "EventHubClientPy\EventHubClientPy.pyproj", "{EE0490D3-5FAC-4877-B3BC-9C623167C346}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "StorageClientPy", "StorageClientPy\StorageClientPy.pyproj", "{5C3BDF8A-7208-477A-9B65-13D968A87B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageClient", "StorageClient\StorageClient.csproj", "{543563CA-7514-4367-8327-3852E00F663D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentDBClient", "DocumentDBClient\DocumentDBClient.csproj", "{E2EB867A-16E0-4298-B992-4D4F652014AA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DocumentDBClientPy", "DocumentDBClientPy\DocumentDBClientPy.pyproj", "{A5C3E52B-89D1-49AF-ACA4-AD39D51ED18E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RedisClientPy", "RedisClientPy\RedisClientPy.pyproj", "{14ABB70A-E1A5-4D0B-950D-A7A869D39AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisClient", "RedisClient\RedisClient.csproj", "{94BC216C-C878-49D9-8948-2B5C32E029F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{2295AD23-C2C3-4311-9AC5-F05E5CA274D7}"
+	ProjectSection(SolutionItems) = preProject
+		HowTo.txt = HowTo.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubClientMono", "EventHubClientMono\EventHubClientMono.csproj", "{59A02787-CF65-4B85-8C13-5858E1853454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8557668-C672-4E44-AF5F-7DD3F8150943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8557668-C672-4E44-AF5F-7DD3F8150943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8557668-C672-4E44-AF5F-7DD3F8150943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8557668-C672-4E44-AF5F-7DD3F8150943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0490D3-5FAC-4877-B3BC-9C623167C346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0490D3-5FAC-4877-B3BC-9C623167C346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3BDF8A-7208-477A-9B65-13D968A87B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3BDF8A-7208-477A-9B65-13D968A87B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543563CA-7514-4367-8327-3852E00F663D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543563CA-7514-4367-8327-3852E00F663D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543563CA-7514-4367-8327-3852E00F663D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543563CA-7514-4367-8327-3852E00F663D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EB867A-16E0-4298-B992-4D4F652014AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EB867A-16E0-4298-B992-4D4F652014AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EB867A-16E0-4298-B992-4D4F652014AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EB867A-16E0-4298-B992-4D4F652014AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C3E52B-89D1-49AF-ACA4-AD39D51ED18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C3E52B-89D1-49AF-ACA4-AD39D51ED18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14ABB70A-E1A5-4D0B-950D-A7A869D39AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14ABB70A-E1A5-4D0B-950D-A7A869D39AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BC216C-C878-49D9-8948-2B5C32E029F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BC216C-C878-49D9-8948-2B5C32E029F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BC216C-C878-49D9-8948-2B5C32E029F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BC216C-C878-49D9-8948-2B5C32E029F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A02787-CF65-4B85-8C13-5858E1853454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A02787-CF65-4B85-8C13-5858E1853454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A02787-CF65-4B85-8C13-5858E1853454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A02787-CF65-4B85-8C13-5858E1853454}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
